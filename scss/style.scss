@@ -1,0 +1,35 @@
+//Variables
+$sans-font: "Raleway", sans-serif;
+$light-font: 300;
+$bold-font: 700;
+
+$black: #353535;
+$gray: #4f4f4f;
+$medium-gray: #737373;
+$light-gray: #c4c4c4;
+$orange: #f96855;
+
+$accent: $orange;
+$body-bg: $black;
+$menu-bg: $gray;
+
+$main-font-color: $light-gray;
+$menu-active-color: $light-gray;
+$menu-font-color: $medium-gray;
+$link-color: $accent;
+
+//Proper styles
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: $body-bg;
+	color: $main-font-color;
+	font-family: $sans-font;
+	font-size: 1.2rem;
+	line-height: 1.45;
+	display: flex;
+	flex-wrap: wrap;
+}
