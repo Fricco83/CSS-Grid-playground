@@ -16,4 +16,43 @@ body {
       flex-wrap: wrap;
 }
 
+.sidebar {
+  background: #4f4f4f;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20%;
+          flex: 1 1 20%;
+  min-width: 300px;
+  padding: 3em;
+}
+
+.logo {
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+@media (min-width: 1500px) {
+  .logo {
+    margin-bottom: 5em;
+  }
+}
+.logo span {
+  font-weight: 700;
+}
+
+.nav-item {
+  color: #737373;
+  text-decoration: none;
+  font-size: 1.7rem;
+  display: inline-block;
+  margin-right: 2em;
+}
+@media (min-width: 1500px) {
+  .nav-item {
+    display: block;
+    margin: 7vh 0;
+  }
+}
+.nav-item.active {
+  color: #c4c4c4;
+}
+
 /*# sourceMappingURL=style.css.map */
