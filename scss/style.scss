@@ -80,8 +80,8 @@ body {
 .portfolio {
 	display: grid;
 	height: 100%;
-	grid-template-rows: repeat(8, 1fr);
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(8, 1fr); //this means each row takes up 1fr and we define 8 rows
+	grid-template-columns: repeat(5, 1fr); //this means each column takes up 1fr and we define 5 columns
 	grid-gap: 20px;
 
 	a {
@@ -105,8 +105,8 @@ body {
 	z-index: 10;
 
 	&.small {
-		grid-row: span 1;
-		grid-column: span 1;
+		grid-row: span 1; //this defines how many fr in a row .small takes
+		grid-column: span 1; //this defines how many fr in a column .small takes
 	}
 
 	&.medium {
