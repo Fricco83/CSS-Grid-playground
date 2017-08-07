@@ -83,6 +83,11 @@ body {
 	grid-template-rows: repeat(8, 1fr);
 	grid-template-columns: repeat(5, 1fr);
 	grid-gap: 20px;
+
+	a {
+		text-decoration: none;
+		color: $light-gray;
+	}
 }
 
 .portfolio-item {
